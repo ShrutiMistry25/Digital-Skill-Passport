@@ -1,112 +1,113 @@
-# Digital Skill Passport - A HACKX 2025 Project by Team Synapse
+# GlobeTrotter - Personalized Travel Planning
 
-**Industry:** Digital Banking Services   
-**Theme:** Skill Verification & Digital Identity 
-
----
+**Industry:** Travel & Tourism
+**Theme:** Smart Trip Planning & Collaboration
 
 ## Project Overview
 
-Synapse introduces the **Digital Skill Passport**, an AI-powered platform designed to provide blue-collar workers with a permanent, verified digital portfolio. This solution aims to formalize skill identity, reduce hiring friction, and empower a vital segment of the workforce.
-
-Each worker gets a unique QR code that grants employers instant access to their verified skills, work history, and peer feedback, building a trusted ecosystem for hiring.
+GlobeTrotter is a travel planning platform that helps users **create, organize, manage, and share multi-city trips** from one place.
 
 ## The Problem
 
-The current system for verifying skills in the unorganized labor sector is broken. Key challenges include:
-* **Difficult Verification:** Industries struggle to easily verify the skills that workers claim to have.
-* **Prevalence of Fraud:** The use of fake certificates and exaggerated resumes is a common issue.
-* **Poor Record Keeping:** It's difficult to track worker records as they frequently move between jobs and locations.
-* **Lack of a Standard:** There is no single, trusted system for managing and verifying worker skills.
+Planning a trip can be difficult because users have to manage:
 
-## Our Solution: The AI-Powered Skill Passport
+* Multiple destinations
+* Travel dates
+* Activities
+* Itineraries
+* Expenses
+* Group planning
 
-Our platform provides a single source of truth for a worker's capabilities.
+## Our Solution
 
+GlobeTrotter provides one platform where users can:
 
-The worker's journey is simple and accessible:
-1.  **Create Profile:** A worker signs up and uploads evidence of their work.
-2.  **AI Verification:** Our system verifies their past work and experience.
-3.  **Connect:** Employers can scan a worker's QR code or search the platform to view their verified portfolio.
-4.  **Hire & Feedback:** After hiring, employers can leave feedback, which further enriches the worker's profile.
+1. Create a trip
+2. Add multiple destinations
+3. Plan day-wise activities
+4. Manage the trip budget
+5. View the itinerary using calendar/timeline
+6. Collaborate with friends
+7. Share trips using public links
 
 ## Key Features
 
-* **Verified Digital Portfolio:** A permanent, portable digital identity for every worker.
-* **AI-Powered Verification:** Custom AI models to validate work experience and evidence.
-* **QR Code Access:** Instant access to a worker's profile for quick and reliable verification by employers.
-* **Accessibility:** A mobile-first design with multilingual support and voice/text inputs to assist semi-literate users.
-* **Offline Mode:** Allows for profile viewing and data submission even with limited internet connectivity.
+* **Authentication** - Login, Signup & Forgot Password
+* **Dashboard** - View upcoming and recent trips
+* **Trip Planner** - Create trips and add destinations
+* **Itinerary** - Organize activities day-wise
+* **Budget Management** - Track travel expenses
+* **Calendar & Timeline** - Visualize the trip
+* **Collaboration** - Plan trips with friends
+* **Trip Sharing** - Share itineraries through public links
 
 ## Tech Stack
 
-* **Frontend:** React.js 
-* **Backend:** Node.js, Express.js 
-* **Database:** MongoDB 
+**Frontend**
 
-## Getting Started: How to Use This Repo
+* React.js
+* JavaScript / TypeScript
+* HTML5
+* CSS3
 
-Follow these instructions to get a local copy of the project up and running.
+**Backend**
 
-### Prerequisites
+* Node.js
+* Express.js
+* REST API
 
-* Node.js (v18 or later)
-* npm or yarn
-* Git
-* A running instance of MongoDB
+**Database**
 
-### Installation & Setup
+* MySQL / PostgreSQL
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[Ashmarck]/digital-skill-passport.git
-    cd digital-skill-passport
-    ```
+**Tools**
 
-2.  **Project Structure:** We recommend a `client` and `server` folder structure.
-    ```
-    /digital-skill-passport
-    |-- /client         # React frontend
-    |-- /server         # Node.js backend
-    |-- .gitignore
-    |-- LICENSE
-    |-- README.md
-    ```
+* Git & GitHub
+* VS Code
+* Postman
 
-3.  **Install Server Dependencies:**
-    ```bash
-    cd server
-    npm install
-    ```
+## Project Structure
 
-4.  **Install Client Dependencies:**
-    ```bash
-    cd ../client
-    npm install
-    ```
+```text
+GlobeTrotter/
+├── frontend/
+├── backend/
+├── database/
+├── docs/
+├── .env.example
+├── .gitignore
+└── README.md
+```
 
-5.  **Environment Variables:** Create a `.env` file in the `/server` directory. This file will store your secret keys and database connection strings.
-    ```
-    # .env file example
-    MONGO_URI=your_mongodb_connection_string
-    PORT=5000
-    ```
+## Getting Started
 
-### Running the Application
+### Clone the Repository
 
-1.  **Start the Backend Server:**
-    ```bash
-    cd server
-    npm run dev  # Or "npm start"
-    ```
+```bash
+git clone https://github.com/ShrutiMistry25/GlobeTrotter.git
+cd GlobeTrotter
+```
 
-2.  **Start the Frontend React App:**
-    ```bash
-    cd client
-    npm start
-    ```
-The application should now be running on your local machine!
+### Frontend
 
-## License
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+## Goal
+
+Our goal is to make travel planning **simple, personalized, collaborative, and budget-friendly** by bringing the complete trip planning process into one platform.
+
+## Team
+
+**GlobeTrotter — Hackathon Project**
